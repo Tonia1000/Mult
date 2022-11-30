@@ -1,4 +1,4 @@
-package com.neogedom.namingserver;
+package com.tads.ifms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
