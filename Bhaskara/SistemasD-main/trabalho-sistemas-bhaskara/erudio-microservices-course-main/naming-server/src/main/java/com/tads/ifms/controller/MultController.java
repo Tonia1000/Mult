@@ -21,9 +21,9 @@ public class MultController {
 
     @PostMapping("")
     @ResponseStatus(HttpStatus.CREATED)
-    public int mult(@RequestBody Bhaskara bhaskara){
+    public int mult(@RequestBody Mult mult){
         int result;
-        result = (bhaskara.getX() + bhaskara.getY());
+        result = (mult.getX() + mult.getY());
         return result;
     }
     
